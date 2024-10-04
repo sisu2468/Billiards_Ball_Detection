@@ -1,5 +1,13 @@
-train: ../data/train/images
-val: ../data/val/images
+train: ../train_dataset/train/images
+val: images
+test: images
 
-nc: 7
-names: ['white', 'blur', 'red', 'green', 'brown', 'black', 'pupil', 'yellow']
+nc: 17
+names: ['BALL 1', 'BALL 2', 'BALL 3', 'BALL 4', 'BALL 5', 'BALL 6', 'BALL 8', 'BALL 9', 'CUR BALL', 'J', 'M', 'P', 'S', 'T', 'V', 'cur ball', 'p']
+
+roboflow:
+  workspace: leo-work
+  project: billiards-tzxwo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/leo-work/billiards-tzxwo/dataset/1

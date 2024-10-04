@@ -3,7 +3,7 @@
 Train a YOLOv5 model on a custom dataset. Models and datasets download automatically from the latest YOLOv5 release.
 
 Usage - Single-GPU training:
-    $ python train.py --data coco128.yaml --weights yolov5s.pt --img 640  # from pretrained (recommended)
+    $ python train.py --data data.yaml --weights yolov5s.pt --img 640  # from pretrained (recommended)
     $ python train.py --data coco128.yaml --weights '' --cfg yolov5s.yaml --img 640  # from scratch
 
 Usage - Multi-GPU DDP training:

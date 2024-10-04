@@ -27,6 +27,6 @@ def detect_balls(model_path, img_path):
     img.show()
 
 # Example usage
-model_path = 'runs/train/exp/weights/best.pt'  # Path to your trained model
+model_path = 'runs/train/exp10/weights/best.pt'  # Path to your trained model
 img_path = 'images/frame0000.jpg'  # Path to the image you want to test
 detect_balls(model_path, img_path)
